@@ -1,8 +1,24 @@
 aid: internet-security-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/internet-security-systems.png
 name: Internet Security Systems
-description: 'Internet Security Systems is a company surfaced as a portfolio company of kleiner-perkins
-  and added to the API Evangelist network as a stub for enrichment. Sector: security. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Internet Security Systems (ISS) was an Atlanta-based network and internet security
+  company, founded in 1994, that provided vulnerability scanning, intrusion detection, and managed
+  security services (Internet Scanner, RealSecure, Proventia, BlackICE). It was acquired by IBM in
+  2006 for approximately $1.3 billion and folded into IBM as IBM Internet Security Systems (later IBM
+  Security / X-Force); it no longer exists as an independent company. Surfaced as a portfolio company
+  of kleiner-perkins and added to the API Evangelist network as a stub, ISS operates no active,
+  independent public developer or API surface today, so there is nothing live to enrich against.'
 url: https://raw.githubusercontent.com/api-evangelist/internet-security-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,29 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: ibm
+x-acquired-year: 2006
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Security
+- Cybersecurity
+- Network Security
+- Vulnerability Management
+- Intrusion Detection
+- Acquired
+- IBM
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
